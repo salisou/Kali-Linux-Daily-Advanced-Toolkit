@@ -63,9 +63,10 @@ Kali-Linux-Daily-Advanced-Toolkit/
 │   ├── 05-processi-servizi-e-avvio.md
 │   └── 06-sicurezza-e-buone-pratiche.md
 ├── scripts/
-│   └── diagnostica/
-│       ├── info_sistema.sh
-│       └── ../toolkit/daily_toolkit.sh
+│   ├── diagnostica/
+│   │   └── info_sistema.sh
+│   └── toolkit/
+│       └── daily_toolkit.sh
 ├── exercises/
 │   └── README.md
 ├── labs/
