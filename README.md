@@ -64,7 +64,8 @@ Kali-Linux-Daily-Advanced-Toolkit/
 │   └── 06-sicurezza-e-buone-pratiche.md
 ├── scripts/
 │   └── diagnostica/
-│       └── info_sistema.sh
+│       ├── info_sistema.sh
+│       └── ../toolkit/daily_toolkit.sh
 ├── exercises/
 │   └── README.md
 ├── labs/
@@ -96,7 +97,13 @@ Per eseguire lo script dimostrativo dopo averlo esaminato:
 bash scripts/diagnostica/info_sistema.sh
 ```
 
-Lo script iniziale è di sola lettura: raccoglie informazioni e non installa pacchetti né modifica configurazioni.
+Per avviare il menu interattivo iniziale:
+
+```bash
+bash scripts/toolkit/daily_toolkit.sh
+```
+
+Entrambi gli script attuali sono di sola lettura: raccolgono informazioni e non installano pacchetti né modificano configurazioni.
 
 ## Requisiti
 
