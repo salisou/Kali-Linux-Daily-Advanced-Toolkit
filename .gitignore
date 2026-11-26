@@ -1,0 +1,27 @@
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# Logs generated during labs
+*.log
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache (for optional helper tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
